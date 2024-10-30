@@ -3,10 +3,10 @@
 namespace App\Web\Pages\Settings\Profile;
 
 use App\Web\Components\Page;
+use App\Web\Pages\Settings\Profile\Widgets\BrowserSessionsForm;
+use App\Web\Pages\Settings\Profile\Widgets\ProfileInformation;
 use App\Web\Pages\Settings\Profile\Widgets\TwoFactor;
 use App\Web\Pages\Settings\Profile\Widgets\UpdatePassword;
-use App\Web\Pages\Settings\Profile\Widgets\ProfileInformation;
-use App\Web\Pages\Settings\Profile\Widgets\BrowserSessionsForm;
 
 class Index extends Page
 {
